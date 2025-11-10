@@ -2,7 +2,7 @@ import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 class DBHelper {
-  static const String dbName = 'money_tracker.db';
+  static const String dbName = 'moneyapps.db';
 
   DBHelper._init();
   static final DBHelper instance = DBHelper._init();
